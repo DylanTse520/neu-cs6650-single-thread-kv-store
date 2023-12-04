@@ -57,5 +57,6 @@ localhost 9086
 Now the client should be able to make connection with the server.
 The commands are similar.
 
+### MISC
 The PREPOPULATION file is for storing the pre-population records.
 The MINIMUM_OPERATION file is for storing the operations to be completed by the clients.
