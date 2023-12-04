@@ -8,8 +8,8 @@ The purpose of the assignment is to build a key-value store server program that 
 
 During the completion of the assignment, my first impression was: I already know how to do socket programming in Java with the previous homework. But this project asks us to do the socket programming with TCP and UDP. So how do I do the socket programming in TCP and UDP. Then after my research I know that typically the sockets communication in Java are completed by TCP, so for TCP part I just need to polish the program to complete the robustness requirement. For the UDP part, I searched through the Internet and know that it can be completed by Datagram package. So all I need to do is to replace the sockets in the TCP project with the Datagram. Then my second impression is to figure out how to complete the “Other notes” part. This part is a bit confusing because it asks us to first populate the store with data and then complete minimum of 5 operation with each operation. So I asked a question on Piazza to clarify and decided to first have the client program read a file to do the pre-population and then read another file to complete the minimum operation requirement. In the end I still need to offer the ability to allow users to interact with the program through terminal.
 
-## Run the code
-Under current directory, open a terminal and use javac to compile 5 programs with the following commands:
+## Build and run the code
+Under ```/src``` directory, open a terminal and use javac to compile 5 programs with the following commands:
 
 ```shell
 javac TCPServer.java

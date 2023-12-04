@@ -42,7 +42,7 @@ public class TCPClient {
             // Prepopulate server's key-value store
             Helper.ClientLog("Pre-populating server's key-value store.");
             // Read pre-population data
-            File prePopulationFile = new File("resources/PREPOPULATION");
+            File prePopulationFile = new File("src/PREPOPULATION");
             // Create the scanner
             Scanner sc = new Scanner(prePopulationFile);
             // Read each line
@@ -58,7 +58,7 @@ public class TCPClient {
             // Complete the minimum operation request
             Helper.ClientLog("Completing minimum operation request.");
             // Read minimum operation data
-            File operationFile = new File("resources/MINIMUM_OPERATION");
+            File operationFile = new File("src/MINIMUM_OPERATION");
             // Create the scanner
             sc = new Scanner(operationFile);
             // Read each line
